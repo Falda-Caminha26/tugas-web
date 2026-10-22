@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pemrograman Web - Mempercantik HTML dengan CSS</title>
+    
+    <!-- STYLING CSS UNTUK MEMBUAT TAMPILAN MENJASI SANGAT CANTIK & MODERN -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Background gradasi mewah */
+            color: #333333;
+            margin: 0;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+        }
+
+        .card-tugas {
+            max-width: 650px;
+            width: 100%;
+            background-color: #ffffff; /* Kotak putih bersih */
+            padding: 40px;
+            border-radius: 16px;       /* Sudut melengkung modern */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Bayangan lembut padat */
+            border-top: 6px solid #3498db; /* Aksen garis biru di atas */
+        }
+
+        .header-section {
+            border-bottom: 2px solid #f2f2f2;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 26px;
+            margin: 0 0 8px 0;
+            font-weight: 700;
+        }
+
+        .sub-judul {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 15.5px;
+            line-height: 1.8;
+            color: #4a5568;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: #e8f4fd;
+            color: #2980b9;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        /* BAGIAN KOTAK BIODATA MAHASISWA */
+        .biodata-box {
+            background-color: #f8fafc;
+            border-left: 4px solid #2ecc71; /* Garis hijau di samping */
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 25px 0;
+        }
+
+        .biodata-title {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #95a5a6;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .biodata-item {
+            font-size: 15px;
+            color: #2c3e50;
+            margin: 4px 0;
+        }
+
+        .footer-status {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #f2f2f2;
+        }
+
+        .badge {
+            background-color: #2ecc71;
+            color: #ffffff;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- STRUKTUR KONTEN UTAMA HALAMAN WEB -->
+    <div class="card-tugas">
+        
+        <div class="header-section">
+            <h1>Tugas Pemrograman Web</h1>
+            <div class="sub-judul">Materi: Implementasi CSS untuk Mempercantik Dokumen HTML</div>
+        </div>
+        
+        <p>Halaman ini merupakan pemenuhan tugas untuk mempercantik kerangka HTML polos menggunakan <span class="highlight">Internal CSS</span>. Kode *styling* diletakkan di dalam tag <code>&lt;style&gt;</code> pada bagian <code>&lt;head&gt;</code> dokumen.</p>
+        
+        <p>Dengan menerapkan properti visual seperti tata letak berbasis Flexbox, efek latar belakang dengan warna gradasi linier, bayangan halus pada kontainer, serta tipografi yang teratur, halaman yang semula berupa teks mentah kini tampil lebih profesional, bersih, dan nyaman dibaca.</p>
+        
+        <!-- BIODATA SUDAH SAYA ISI DI SINI -->
+        <div class="biodata-box">
+            <div class="biodata-title">Disusun Oleh:</div>
+            <div class="biodata-item"><strong>Nama:</strong> Mafalda caminha</div>
+            <div class="biodata-item"><strong>NIM:</strong> 25534055</div>
+            <div class="biodata-item"><strong>Kelas:</strong> C</div>
+        </div>
+        
+        <div class="footer-status">
+            <span class="badge">Status: Selesai Dipercantik</span>
+            <span class="note">Pemrograman Web © 2026</span>
+        </div>
+
+    </div>
+
+</body>
+</html>
